@@ -37,7 +37,6 @@ fastify.get('/user/:id', (request, reply) => {
   }
 });
 
-
 fastify.get('/users', (request, reply) => {
   let result = [];
   const { filter, value } = request.query
